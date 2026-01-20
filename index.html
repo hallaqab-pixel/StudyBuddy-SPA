@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>StudyBuddy</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<header class="app-header">
+  <h1>StudyBuddy</h1>
+  <nav>
+    <a href="#dashboard" class="nav-link active">Dashboard</a>
+    <a href="#tasks" class="nav-link">Tasks</a>
+    <a href="#habits" class="nav-link">Habits</a>
+    <a href="#resources" class="nav-link">Resources</a>
+    <a href="#settings" class="nav-link">Settings</a>
+  </nav>
+</header>
+
+<main>
+  <section id="dashboard" class="page active"></section>
+  <section id="tasks" class="page"></section>
+  <section id="habits" class="page"></section>
+  <section id="resources" class="page"></section>
+  <section id="settings" class="page"></section>
+</main>
+
+<script src="state.js"></script>
+<script src="storage.js"></script>
+<script src="ui.js"></script>
+<script src="app.js"></script>
+</body>
+</html>

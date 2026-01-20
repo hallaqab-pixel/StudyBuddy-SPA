@@ -1,0 +1,4 @@
+[
+    {"id":1,"title":"MDN JavaScript","category":"JS","link":"https://developer.mozilla.org","description":"Docs"},
+    {"id":2,"title":"CSS Tricks","category":"CSS","link":"https://css-tricks.com","description":"CSS"}
+  ]
