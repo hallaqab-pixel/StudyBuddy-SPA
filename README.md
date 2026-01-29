@@ -1,4 +1,6 @@
 # StudyBuddy SPA
+#Abdullah Sameer Hallaq
+#ID: 120220485
 
 Single Page Application using HTML, CSS, Vanilla JavaScript.
 
@@ -9,4 +11,5 @@ Single Page Application using HTML, CSS, Vanilla JavaScript.
 - Dark Mode
 
 ## Run
+
 Open index.html
