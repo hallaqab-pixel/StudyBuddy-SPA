@@ -9,7 +9,7 @@ showPage('dashboard');
 /*-- Dashboard --*/
 function renderDashboard() {
   const completed = state.tasks.filter(t => t.completed).length;
-  const total = state.tasks.length || 1;
+  const total = state.tasks.length || 0;
 
   document.getElementById('dashboard').innerHTML = `
     <h2>Dashboard</h2>
@@ -133,4 +133,5 @@ function toggleTheme(){
 }
 
 /* ---------- Initial Render ---------- */
+
 renderDashboard(); renderTasks(); renderHabits(); renderResources(); renderSettings();
